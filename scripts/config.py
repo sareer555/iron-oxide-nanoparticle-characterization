@@ -205,6 +205,12 @@ def apply_plot_style() -> None:
         "legend.fontsize": 9,
         "lines.linewidth": 1.2,
         "mathtext.default": "regular",
+        # Embed TrueType (Type 42) rather than Type 3 fonts. Matplotlib
+        # defaults to Type 3, which many publishers reject outright and which
+        # some PDF viewers render poorly. Type 42 also keeps text selectable
+        # and editable in Illustrator/Inkscape.
+        "pdf.fonttype": 42,
+        "ps.fonttype": 42,
     })
 
 

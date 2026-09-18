@@ -76,7 +76,11 @@ S = {
     "body": ParagraphStyle("body", parent=_ss["BodyText"], fontName="DejaVu",
                            fontSize=8.9, leading=12.3, alignment=TA_JUSTIFY,
                            spaceAfter=5),
+    # bulletFontName must be set explicitly: ReportLab otherwise draws the
+    # bullet glyph in Helvetica, which is a non-embedded base-14 font. Some
+    # publishers require every font to be embedded.
     "bullet": ParagraphStyle("bullet", parent=_ss["BodyText"], fontName="DejaVu",
+                             bulletFontName="DejaVu", bulletFontSize=8.9,
                              fontSize=8.9, leading=12.1, alignment=TA_JUSTIFY,
                              leftIndent=11, bulletIndent=2, spaceAfter=3),
     "caption": ParagraphStyle("caption", parent=_ss["Normal"], fontName="DejaVu",
