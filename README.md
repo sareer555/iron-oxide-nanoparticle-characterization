@@ -147,7 +147,8 @@ Iron_Oxide_Nanoparticle_Characterization/
 │   ├── validate.py              55 automated checks
 │   ├── build_report.py          renders the PDF from analysis_results.json
 │   └── make_notebook.py         builds and executes the notebook
-├── figures/                    18 figures, each as PNG (400 dpi) + PDF vector
+├── figures/                    18 figures, PNG at 400 dpi (vector PDFs
+│                                regenerate locally -- see note below)
 ├── report/
 │   ├── iron_oxide_characterization_report.pdf
 │   ├── analysis_results.json
@@ -157,6 +158,21 @@ Iron_Oxide_Nanoparticle_Characterization/
 └── portfolio/
     └── fiverr_portfolio.md
 ```
+
+---
+
+### A note on figure formats
+
+`scripts/analysis.py` saves every figure as both a 400 dpi PNG and a vector
+PDF. Only the PNGs are committed. GitHub's file viewer cannot preview
+Matplotlib-generated PDFs -- it reports "Unable to render code block" even
+though the files are perfectly valid -- so committing them makes the
+repository look broken to anyone browsing it. Running the pipeline regenerates
+the vector PDFs locally, identically every time, for print or journal
+submission.
+
+Figure PDFs embed subsetted Type 42 (TrueType) fonts rather than Matplotlib's
+Type 3 default, which many publishers reject.
 
 ---
 
