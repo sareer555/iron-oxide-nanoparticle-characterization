@@ -1,0 +1,21 @@
+# Iron Oxide Nanoparticle Characterization -- portfolio demonstration project
+# Tested with Python 3.11 on Windows.
+
+numpy>=1.24
+pandas>=2.0
+scipy>=1.10
+matplotlib>=3.7
+
+# Report generation (PDF)
+reportlab>=4.0
+pillow>=10.0
+
+# Notebook generation and execution
+nbformat>=5.9
+nbclient>=0.9
+ipykernel>=6.25
+
+# Installed for completeness and cited in the bibliography, but deliberately
+# NOT used in the analysis: no step in this workflow is a machine-learning
+# problem, and adding a model for appearance would misrepresent the work.
+scikit-learn>=1.3

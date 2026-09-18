@@ -1,0 +1,8 @@
+# PROCESSED SYNTHETIC DATASET -- headline result from each technique
+# DEMONSTRATION DATASET. Synthetically generated for portfolio purposes. These values were not measured on any instrument and do not describe a real sample.
+technique,role,demonstration_outcome
+XRD,Phase + crystallite size,a = 8.3962 A; D = 11.9 nm; eps = 5.5e-04
+FTIR,Surface chemistry,6 bands; Fe-O lattice modes + O-H / H-O-H; no organic bands
+UV-Vis,Optical behaviour,Broad CT absorption; scattering ~ lambda^-2.0; no defensible band gap
+SEM,Morphology + size distribution,n = 84; mean = 19.1 nm; median = 18.7 nm; GSD = 1.25
+TGA,Volatile content,"Total loss = 4.65 %; DTG maxima at 79.0, 238.5, 519.0 C"

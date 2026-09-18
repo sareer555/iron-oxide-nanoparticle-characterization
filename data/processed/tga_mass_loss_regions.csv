@@ -1,0 +1,7 @@
+# PROCESSED SYNTHETIC DATASET -- region-resolved mass losses and assignments
+# DEMONSTRATION DATASET. Synthetically generated for portfolio purposes. These values were not measured on any instrument and do not describe a real sample.
+region,T_start_C,T_end_C,mass_at_start_percent,mass_at_end_percent,mass_loss_percent,fraction_of_total_loss_percent,dtg_max_temperature_C,assigned_process,assignment_confidence
+Region I,25.0,150.0,99.795,97.306,2.489,53.5,79.0,Loss of physisorbed and interparticle water,high
+Region II,150.0,400.0,97.306,95.745,1.561,33.6,238.5,Loss of strongly bound water and surface dehydroxylation (2 Fe-OH -> Fe-O-Fe + H2O),medium
+Region III,400.0,650.0,95.745,95.156,0.589,12.7,519.0,Residual dehydroxylation / loss of lattice-associated OH,low
+Region IV,650.0,800.0,95.156,95.144,0.012,0.3,651.0,Comparatively stable; no further resolvable mass loss,high

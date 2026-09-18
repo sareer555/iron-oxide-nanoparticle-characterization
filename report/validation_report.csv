@@ -1,0 +1,56 @@
+category,check,status,detail
+recovery,XRD crystallite size (Williamson-Hall),PASS,"recovered 11.94 nm vs injected 12.00 nm (-0.5 %), tolerance 10 %"
+recovery,Scherrer under-estimates vs Williamson-Hall,PASS,"Scherrer 11.12 nm < Williamson-Hall 11.94 nm, as expected when microstrain contributes to the broadening"
+recovery,XRD lattice parameter,PASS,recovered 8.3962 +/- 0.0073 A vs injected 8.3960 A (within 0.0 sigma)
+recovery,XRD microstrain (order of magnitude only),PASS,recovered 5.53e-04 vs injected 8.00e-04; the W-H SLOPE is intrinsically less well determined than the intercept (fit R^2 = 0.28)
+recovery,XRD phase assignment,PASS,assigned 'Fe3O4 (magnetite)' (magnetite was injected)
+recovery,SEM lognormal median,PASS,recovered 18.68 nm vs injected 18.50 nm
+recovery,SEM geometric standard deviation,PASS,recovered 1.245 vs injected 1.280
+recovery,SEM sample size,PASS,n = 84 (injected 84)
+recovery,TGA number of mass-loss events,PASS,3 events resolved (3 injected)
+recovery,TGA step 1 amplitude,PASS,recovered 2.60 % vs injected 2.60 %
+recovery,TGA step 2 amplitude,PASS,recovered 1.70 % vs injected 1.70 %
+recovery,TGA step 3 amplitude,PASS,recovered 0.60 % vs injected 0.60 %
+internal,Bragg's law self-consistency,PASS,max deviation 4.08e-06 A
+internal,Scherrer equation recomputed by hand,PASS,"manual 11.306 nm vs pipeline 11.310 nm (K=0.9, lambda=0.15406 nm, beta=0.7376 deg -> 0.012874 rad, theta=17.719 deg)"
+internal,Radian conversion is actually applied,PASS,correct 11.31 nm vs degrees-by-mistake 0.1973 nm (factor 57.3) -- conversion verified present
+internal,Cubic indexing a = d*sqrt(h^2+k^2+l^2),PASS,all 7 reflections consistent
+internal,SEM descriptive statistics recomputed,PASS,"mean/median/SD/Q1/Q3 all reproduce (mean 19.13 nm, SD 4.19 nm)"
+internal,SEM quartile ordering and IQR,PASS,min 10.72 <= Q1 16.24 <= median 18.74 <= Q3 21.48 <= max 31.53
+internal,Moment-mean ordering (number <= Sauter <= De Brouckere),PASS,"number 19.13 <= D[3,2] 20.95 <= D[4,3] 21.87 nm"
+internal,TGA region losses sum to the total,PASS,regions sum to 4.651 % vs total 4.651 %
+internal,TGA residue + total loss = initial mass,PASS,95.144 + 4.651 = 99.795 % (initial 99.795 %)
+internal,TGA mass decreases monotonically overall,PASS,"no net mass gain, consistent with the assumed inert atmosphere"
+internal,Derived surface water coverage is physically sane,PASS,"5.37 molecules/nm^2, within the 2-12 range typical of hydroxylated iron-oxide surfaces"
+internal,Units in column names: cross_technique_summary.csv,PASS,all quantitative columns carry units
+internal,Units in column names: ftir_peak_assignments.csv,PASS,all quantitative columns carry units
+internal,Units in column names: ftir_processed.csv,PASS,all quantitative columns carry units
+internal,Units in column names: sem_size_distribution.csv,PASS,all quantitative columns carry units
+internal,Units in column names: sem_size_statistics.csv,PASS,all quantitative columns carry units
+internal,Units in column names: technique_comparison_matrix.csv,PASS,all quantitative columns carry units
+internal,Units in column names: tga_mass_loss_regions.csv,PASS,all quantitative columns carry units
+internal,Units in column names: tga_processed.csv,PASS,all quantitative columns carry units
+internal,Units in column names: uvvis_processed.csv,PASS,all quantitative columns carry units
+internal,Units in column names: xrd_peak_analysis.csv,PASS,all quantitative columns carry units
+internal,Units in column names: xrd_processed.csv,PASS,all quantitative columns carry units
+integrity,Disclaimer present: raw/ftir_data.csv,PASS,synthetic-data disclaimer found in header
+integrity,Disclaimer present: raw/sem_particle_measurements.csv,PASS,synthetic-data disclaimer found in header
+integrity,Disclaimer present: raw/tga_data.csv,PASS,synthetic-data disclaimer found in header
+integrity,Disclaimer present: raw/uvvis_data.csv,PASS,synthetic-data disclaimer found in header
+integrity,Disclaimer present: raw/xrd_data.csv,PASS,synthetic-data disclaimer found in header
+integrity,Disclaimer present: processed/cross_technique_summary.csv,PASS,synthetic-data disclaimer found in header
+integrity,Disclaimer present: processed/ftir_peak_assignments.csv,PASS,synthetic-data disclaimer found in header
+integrity,Disclaimer present: processed/ftir_processed.csv,PASS,synthetic-data disclaimer found in header
+integrity,Disclaimer present: processed/sem_size_distribution.csv,PASS,synthetic-data disclaimer found in header
+integrity,Disclaimer present: processed/sem_size_statistics.csv,PASS,synthetic-data disclaimer found in header
+integrity,Disclaimer present: processed/technique_comparison_matrix.csv,PASS,synthetic-data disclaimer found in header
+integrity,Disclaimer present: processed/tga_mass_loss_regions.csv,PASS,synthetic-data disclaimer found in header
+integrity,Disclaimer present: processed/tga_processed.csv,PASS,synthetic-data disclaimer found in header
+integrity,Disclaimer present: processed/uvvis_processed.csv,PASS,synthetic-data disclaimer found in header
+integrity,Disclaimer present: processed/xrd_peak_analysis.csv,PASS,synthetic-data disclaimer found in header
+integrity,Disclaimer present: processed/xrd_processed.csv,PASS,synthetic-data disclaimer found in header
+integrity,All figures generated,PASS,18/18 figures present in PNG
+integrity,Vector (PDF) versions generated,PASS,18/18 figures present in PDF
+integrity,No fabricated experimental claims,PASS,no first-person experimental assertions found
+integrity,Optical band gap not reported as a measurement,PASS,Tauc analysis is presented as a method demonstration with an explicit 2.34 eV spread across equally defensible analysis choices
+integrity,Processed XRD row count matches raw,PASS,3001 rows in both raw and processed XRD data

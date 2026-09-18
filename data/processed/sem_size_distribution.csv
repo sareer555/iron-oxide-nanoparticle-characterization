@@ -1,0 +1,12 @@
+# PROCESSED SYNTHETIC DATASET -- binned number and volume frequency distribution
+# DEMONSTRATION DATASET. Synthetically generated for portfolio purposes. These values were not measured on any instrument and do not describe a real sample.
+bin_lower_nm,bin_upper_nm,bin_centre_nm,count,number_fraction_percent,cumulative_number_percent,volume_fraction_percent
+10.72,13.032,11.876,4,4.762,4.762,0.899
+13.032,15.344,14.188,12,14.286,19.048,5.18
+15.344,17.657,16.501,14,16.667,35.714,9.478
+17.657,19.969,18.813,19,22.619,58.333,18.313
+19.969,22.281,21.125,19,22.619,80.952,25.998
+22.281,24.593,23.437,8,9.524,90.476,14.751
+24.593,26.906,25.749,4,4.762,95.238,10.394
+26.906,29.218,28.062,2,2.381,97.619,6.193
+29.218,31.53,30.374,2,2.381,100.0,8.795

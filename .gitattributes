@@ -1,0 +1,12 @@
+# Normalise line endings so the repo is identical on Windows, macOS and Linux.
+* text=auto eol=lf
+
+# Binary assets: never touch these.
+*.png binary
+*.pdf binary
+
+# Notebooks: keep diffs readable, and mark as Python for language stats.
+*.ipynb text eol=lf linguist-language=Jupyter\ Notebook
+
+# Data files committed as deliverables.
+*.csv text eol=lf

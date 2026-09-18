@@ -1,0 +1,32 @@
+# PROCESSED SYNTHETIC DATASET -- descriptive + distribution statistics
+# DEMONSTRATION DATASET. Synthetically generated for portfolio purposes. These values were not measured on any instrument and do not describe a real sample.
+statistic,value
+n,84
+mean_nm,19.13
+median_nm,18.74
+std_dev_nm,4.19
+std_error_nm,0.457
+min_nm,10.72
+max_nm,31.53
+q1_nm,16.24
+q3_nm,21.48
+iqr_nm,5.25
+range_nm,20.81
+cv_percent,21.9
+skewness,0.478
+kurtosis_excess,0.377
+tukey_fence_low_nm,8.37
+tukey_fence_high_nm,29.35
+n_outliers_tukey,2
+lognormal_median_nm,18.68
+lognormal_gsd,1.245
+lognormal_sigma,0.2194
+ks_lognormal_statistic,0.0716
+ks_lognormal_pvalue,0.7555
+ks_normal_pvalue,0.8419
+bootstrap_mean_ci95_nm,"[18.24, 20.05]"
+volume_weighted_D43_nm,21.87
+surface_weighted_D32_nm,20.95
+mean_aspect_ratio,1.091
+mean_circularity,0.936
+aspect_ratio_range,"[1.0, 1.285]"

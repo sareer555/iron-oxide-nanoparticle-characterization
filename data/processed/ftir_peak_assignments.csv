@@ -1,0 +1,9 @@
+# PROCESSED SYNTHETIC DATASET -- detected bands with literature-based assignments
+# DEMONSTRATION DATASET. Synthetically generated for portfolio purposes. These values were not measured on any instrument and do not describe a real sample.
+peak_wavenumber_cm_1,peak_absorbance_au,transmittance_percent,assignment,confidence,label,interpretation_note
+3394.0,0.26922,38.65,O-H stretch: adsorbed molecular water + surface hydroxyls,high,$\nu$(O-H) stretch,Very broad -> extensive hydrogen bonding. Cannot distinguish H2O from structural OH on band position alone.
+2341.0,0.05769,82.0,Atmospheric CO2 asymmetric stretch -- INSTRUMENT ARTEFACT,high,CO$_2$ (atmospheric),Not a sample feature. Arises from incomplete background compensation of ambient CO2.
+1629.0,0.13063,67.96,H-O-H bending of molecular water,high,$\delta$(H-O-H) bend,Co-occurrence with the 3400 band supports molecular water rather than isolated OH groups.
+1046.0,0.05226,82.15,Tentative: Fe-OH deformation / surface hydroxyl,low,surface Fe-OH,Weak and broad. Overlaps the region where residual sulfate or silicate would also absorb. NOT a confident assignment.
+571.0,0.45683,23.64,"Fe-O stretch, tetrahedrally coordinated Fe",high,$\nu$(Fe-O) T$_d$,Principal spinel lattice mode. Position is phase-sensitive but NOT sufficient alone to separate Fe3O4 from gamma-Fe2O3.
+446.0,0.2065,36.27,"Fe-O stretch, octahedrally coordinated Fe",medium,$\nu$(Fe-O) O$_h$,Close to the low-wavenumber cut-off; intensity and position are less reliable here.

@@ -1,0 +1,63 @@
+# --------------------------------------------------------------------------
+# .gitignore
+#
+# NOTE ON GENERATED OUTPUTS
+# -------------------------
+# The datasets, figures and report in this repository ARE the deliverable, so
+# they are deliberately committed rather than ignored. A visitor browsing the
+# repo on GitHub should be able to see the figures, read the report and
+# inspect the processed tables without cloning or running anything.
+#
+# Everything below is genuine build residue, not output.
+# --------------------------------------------------------------------------
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+.jupyter/
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Editors and IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.spyproject/
+.spyderproject/
+
+# Operating system
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Scratch / temporary work
+scratch/
+tmp/
+*.tmp
+*.bak
+*.log
